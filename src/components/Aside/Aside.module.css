@@ -1,0 +1,18 @@
+.Container {
+  min-height: 100vh;
+  max-width: 600px;
+  background-color: #2b2f3e;
+  padding: 8px 30px 0 30px;
+}
+
+.Title {
+  color: white;
+  font-size: 29px;
+  font-weight: 500;
+}
+
+.Text {
+  color: #5b5d63;
+  font-size: 14px;
+  margin-top: 5px;
+}

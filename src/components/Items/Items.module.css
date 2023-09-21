@@ -1,0 +1,141 @@
+.ItemsContainer {
+  min-width: 450px;
+  height: fit-content;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+
+.ItemsTitle {
+  color: gray;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.ItemsForm {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ItemsInput {
+  display: block;
+  width: 100%;
+  height: 23px;
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &:focus,
+  :hover {
+    box-shadow: 0px 0px 5px 0px #007bff;
+    outline: none;
+  }
+}
+
+.Button {
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 5px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.AddItemButton {
+  color: #fff;
+  background-color: #17a2b8;
+
+  &:active {
+    box-shadow: 0px 0px 5px 0px #17a2b8;
+  }
+}
+
+.AddItemButton:hover,
+.AddItemButton:focus {
+  background-color: #107888;
+}
+
+.ItemsList {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.Item {
+  display: flex;
+  max-width: 100%;
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.ItemActive {
+  display: flex;
+  max-width: 100%;
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-left: 4px solid deeppink;
+}
+
+.Item:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.Item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.Container {
+  margin-left: auto;
+}
+
+.CommentsQuantity {
+  padding: 2px 5px 2px 5px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #17a2b8;
+  margin-right: 15px;
+}
+
+.DeleteItemBtn {
+  color: #dc3545;
+  background-color: transparent;
+  background-image: none;
+  border-color: #dc3545;
+
+  &:active {
+    box-shadow: 0px 0px 5px 0px #dc3545;
+  }
+}
+
+.DeleteItemBtn:hover,
+.DeleteItemBtnr:focus {
+  background-color: #dc3545;
+}

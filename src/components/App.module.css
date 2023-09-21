@@ -1,0 +1,22 @@
+.Container {
+  display: flex;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+
+  @media screen and (max-width: 375px) {
+    flex-direction: column;
+  }
+}
+
+.Main {
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+  padding-top: 30px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
