@@ -138,4 +138,5 @@
 .DeleteItemBtn:hover,
 .DeleteItemBtnr:focus {
   background-color: #dc3545;
+  color: white;
 }
